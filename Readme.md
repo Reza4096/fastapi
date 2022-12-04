@@ -26,6 +26,11 @@ pip install "uvicorn[standard]"
 ```bash
 uvicorn main:app --reload
 ```
+<ul>
+<li><code>main</code>: the file <code>main.py</code> (the Python "module").</li>
+<li><code>app</code>: the object created inside of <code>main.py</code> with the line <code>app = FastAPI()</code>.</li>
+<li><code>--reload</code>: make the server restart after code changes. Only do this for development.</li>
+</ul>
 
 ## Check it
 
