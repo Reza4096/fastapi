@@ -26,3 +26,13 @@ pip install "uvicorn[standard]"
 ```bash
 uvicorn main:app --reload
 ```
+
+## Check it
+
+<p>Open your browser at <a href="http://127.0.0.1:8000/items/5?q=somequery" class="external-link" target="_blank">http://127.0.0.1:8000/items/5?q=somequery</a>.</p>
+
+You will see the JSON response as:
+
+```json
+{"item_id": 5, "q": "somequery"}
+```
