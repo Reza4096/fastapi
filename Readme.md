@@ -36,3 +36,9 @@ You will see the JSON response as:
 ```json
 {"item_id": 5, "q": "somequery"}
 ```
+
+## Interactive API docs
+
+<p>Now go to <a href="http://127.0.0.1:8000/docs" class="external-link" target="_blank">http://127.0.0.1:8000/docs</a>.</p>
+
+<p>You will see the automatic interactive API documentation (provided by <a href="https://github.com/swagger-api/swagger-ui" class="external-link" target="_blank">Swagger UI</a>)</p>
