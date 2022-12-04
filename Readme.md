@@ -21,3 +21,8 @@ FastAPI stands on the shoulders of giants:
 pip install fastapi
 pip install "uvicorn[standard]"
 ```
+
+## Run it
+```bash
+uvicorn main:app --reload
+```
