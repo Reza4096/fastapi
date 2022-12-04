@@ -15,3 +15,9 @@ FastAPI stands on the shoulders of giants:
 <li><a href="https://www.starlette.io/" class="external-link" target="_blank">Starlette</a> for the web parts.</li>
 <li><a href="https://pydantic-docs.helpmanual.io/" class="external-link" target="_blank">Pydantic</a> for the data parts.</li>
 </ul>
+
+## Installation
+```bash
+pip install fastapi
+pip install "uvicorn[standard]"
+```
